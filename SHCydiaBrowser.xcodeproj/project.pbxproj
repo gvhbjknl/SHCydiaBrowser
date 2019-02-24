@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1173FB173FC825000C4B81 /* shcyd.icns in Resources */ = {isa = PBXBuildFile; fileRef = EB1173FA173FC825000C4B81 /* shcyd.icns */; };
+		EB125FD615164288005CB41D /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = EB125FD515164288005CB41D /* Credits.html */; };
+		EB53C1BB151535F4005C35F7 /* shFileStreamPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB53C1BA151535F4005C35F7 /* shFileStreamPanel.xib */; };
+		EB5BCE32151538B200340FBA /* shFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5BCE31151538B200340FBA /* shFileStream.m */; };
+		EB7730281510C5040055B6A8 /* shDebian.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7730271510C5040055B6A8 /* shDebian.m */; };
+		EB7730291510C5040055B6A8 /* shDebian.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7730271510C5040055B6A8 /* shDebian.m */; };
+		EB77302E1510C5250055B6A8 /* shFTPPanel_Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB77302B1510C5250055B6A8 /* shFTPPanel_Window.xib */; };
+		EB77302F1510C5250055B6A8 /* shFTPPanel_Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB77302B1510C5250055B6A8 /* shFTPPanel_Window.xib */; };
+		EB7730301510C5250055B6A8 /* shFTPPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB77302D1510C5250055B6A8 /* shFTPPanel.m */; };
+		EB7730311510C5250055B6A8 /* shFTPPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB77302D1510C5250055B6A8 /* shFTPPanel.m */; };
+		EB91CAB3151357EB00CB3393 /* iPNSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91CAB2151357EB00CB3393 /* iPNSourcesViewController.m */; };
+		EB91CAB4151357EB00CB3393 /* iPNSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91CAB2151357EB00CB3393 /* iPNSourcesViewController.m */; };
+		EB91CAC31513942B00CB3393 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB91CAC21513942B00CB3393 /* libbz2.dylib */; };
+		EB91CAC61513946500CB3393 /* NSData+Bzip2.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91CAC51513946500CB3393 /* NSData+Bzip2.m */; };
+		EB91CAC71513946500CB3393 /* NSData+Bzip2.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91CAC51513946500CB3393 /* NSData+Bzip2.m */; };
+		EB91CACA1513A1F300CB3393 /* iPNPackagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91CAC91513A1F300CB3393 /* iPNPackagesViewController.m */; };
+		EB91CACB1513A1F300CB3393 /* iPNPackagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91CAC91513A1F300CB3393 /* iPNPackagesViewController.m */; };
+		EB93F1911510C0F600807F09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93F1901510C0F600807F09 /* Cocoa.framework */; };
+		EB93F19B1510C0F600807F09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB93F1991510C0F600807F09 /* InfoPlist.strings */; };
+		EB93F19D1510C0F600807F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93F19C1510C0F600807F09 /* main.m */; };
+		EB93F1A41510C0F600807F09 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93F1A31510C0F600807F09 /* SHAppDelegate.m */; };
+		EB93F1A71510C0F700807F09 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB93F1A51510C0F700807F09 /* MainMenu.xib */; };
+		EB93F1AF1510C0F700807F09 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93F1AE1510C0F700807F09 /* SenTestingKit.framework */; };
+		EB93F1B01510C0F700807F09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93F1901510C0F600807F09 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB93F1B11510C0F700807F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB93F1831510C0F600807F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB93F18B1510C0F600807F09;
+			remoteInfo = SHCydiaBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB1173FA173FC825000C4B81 /* shcyd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = shcyd.icns; path = ../shcyd.icns; sourceTree = "<group>"; };
+		EB125FD515164288005CB41D /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		EB53C1B81514BED2005C35F7 /* shStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shStrings.h; sourceTree = "<group>"; };
+		EB53C1BA151535F4005C35F7 /* shFileStreamPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = shFileStreamPanel.xib; sourceTree = "<group>"; };
+		EB5BCE30151538B200340FBA /* shFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shFileStream.h; sourceTree = "<group>"; };
+		EB5BCE31151538B200340FBA /* shFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shFileStream.m; sourceTree = "<group>"; };
+		EB7730261510C5040055B6A8 /* shDebian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shDebian.h; sourceTree = "<group>"; };
+		EB7730271510C5040055B6A8 /* shDebian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shDebian.m; sourceTree = "<group>"; };
+		EB77302B1510C5250055B6A8 /* shFTPPanel_Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = shFTPPanel_Window.xib; sourceTree = "<group>"; };
+		EB77302C1510C5250055B6A8 /* shFTPPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shFTPPanel.h; sourceTree = "<group>"; };
+		EB77302D1510C5250055B6A8 /* shFTPPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shFTPPanel.m; sourceTree = "<group>"; };
+		EB91CAB1151357EB00CB3393 /* iPNSourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPNSourcesViewController.h; sourceTree = "<group>"; };
+		EB91CAB2151357EB00CB3393 /* iPNSourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPNSourcesViewController.m; sourceTree = "<group>"; };
+		EB91CAC21513942B00CB3393 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		EB91CAC41513946500CB3393 /* NSData+Bzip2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bzip2.h"; sourceTree = "<group>"; };
+		EB91CAC51513946500CB3393 /* NSData+Bzip2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bzip2.m"; sourceTree = "<group>"; };
+		EB91CAC81513A1F300CB3393 /* iPNPackagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPNPackagesViewController.h; sourceTree = "<group>"; };
+		EB91CAC91513A1F300CB3393 /* iPNPackagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPNPackagesViewController.m; sourceTree = "<group>"; };
+		EB93F18C1510C0F600807F09 /* SHCydiaBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHCydiaBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB93F1901510C0F600807F09 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB93F1931510C0F600807F09 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB93F1941510C0F600807F09 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB93F1951510C0F600807F09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB93F1981510C0F600807F09 /* SHCydiaBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHCydiaBrowser-Info.plist"; sourceTree = "<group>"; };
+		EB93F19A1510C0F600807F09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB93F19C1510C0F600807F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB93F19E1510C0F600807F09 /* SHCydiaBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHCydiaBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		EB93F1A21510C0F600807F09 /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		EB93F1A31510C0F600807F09 /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		EB93F1A61510C0F700807F09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB93F1AD1510C0F700807F09 /* SHCydiaBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHCydiaBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB93F1AE1510C0F700807F09 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB93F1891510C0F600807F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB91CAC31513942B00CB3393 /* libbz2.dylib in Frameworks */,
+				EB93F1911510C0F600807F09 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB93F1A91510C0F700807F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB93F1AF1510C0F700807F09 /* SenTestingKit.framework in Frameworks */,
+				EB93F1B01510C0F700807F09 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7730321510C52C0055B6A8 /* shDebian */ = {
+			isa = PBXGroup;
+			children = (
+				EB77302B1510C5250055B6A8 /* shFTPPanel_Window.xib */,
+				EB77302C1510C5250055B6A8 /* shFTPPanel.h */,
+				EB77302D1510C5250055B6A8 /* shFTPPanel.m */,
+				EB7730261510C5040055B6A8 /* shDebian.h */,
+				EB7730271510C5040055B6A8 /* shDebian.m */,
+				EB91CAC41513946500CB3393 /* NSData+Bzip2.h */,
+				EB91CAC51513946500CB3393 /* NSData+Bzip2.m */,
+				EB53C1BA151535F4005C35F7 /* shFileStreamPanel.xib */,
+				EB5BCE30151538B200340FBA /* shFileStream.h */,
+				EB5BCE31151538B200340FBA /* shFileStream.m */,
+			);
+			name = shDebian;
+			sourceTree = "<group>";
+		};
+		EB91CAAF1513579B00CB3393 /* SourcesTab */ = {
+			isa = PBXGroup;
+			children = (
+				EB91CAB1151357EB00CB3393 /* iPNSourcesViewController.h */,
+				EB91CAB2151357EB00CB3393 /* iPNSourcesViewController.m */,
+				EB91CAC81513A1F300CB3393 /* iPNPackagesViewController.h */,
+				EB91CAC91513A1F300CB3393 /* iPNPackagesViewController.m */,
+				EB53C1B81514BED2005C35F7 /* shStrings.h */,
+			);
+			name = SourcesTab;
+			sourceTree = "<group>";
+		};
+		EB93F1811510C0F600807F09 = {
+			isa = PBXGroup;
+			children = (
+				EB93F1961510C0F600807F09 /* shCydiaBrowser */,
+				EB93F18F1510C0F600807F09 /* Frameworks */,
+				EB93F18D1510C0F600807F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB93F18D1510C0F600807F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB93F18C1510C0F600807F09 /* SHCydiaBrowser.app */,
+				EB93F1AD1510C0F700807F09 /* SHCydiaBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB93F18F1510C0F600807F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB91CAC21513942B00CB3393 /* libbz2.dylib */,
+				EB93F1901510C0F600807F09 /* Cocoa.framework */,
+				EB93F1AE1510C0F700807F09 /* SenTestingKit.framework */,
+				EB93F1921510C0F600807F09 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB93F1921510C0F600807F09 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB93F1931510C0F600807F09 /* AppKit.framework */,
+				EB93F1941510C0F600807F09 /* CoreData.framework */,
+				EB93F1951510C0F600807F09 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB93F1961510C0F600807F09 /* shCydiaBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EB1173FA173FC825000C4B81 /* shcyd.icns */,
+				EB91CAAF1513579B00CB3393 /* SourcesTab */,
+				EB7730321510C52C0055B6A8 /* shDebian */,
+				EB93F1A21510C0F600807F09 /* SHAppDelegate.h */,
+				EB93F1A31510C0F600807F09 /* SHAppDelegate.m */,
+				EB93F1A51510C0F700807F09 /* MainMenu.xib */,
+				EB125FD515164288005CB41D /* Credits.html */,
+				EB93F1971510C0F600807F09 /* Supporting Files */,
+			);
+			name = shCydiaBrowser;
+			path = SHCydiaBrowser;
+			sourceTree = "<group>";
+		};
+		EB93F1971510C0F600807F09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB93F1981510C0F600807F09 /* SHCydiaBrowser-Info.plist */,
+				EB93F1991510C0F600807F09 /* InfoPlist.strings */,
+				EB93F19C1510C0F600807F09 /* main.m */,
+				EB93F19E1510C0F600807F09 /* SHCydiaBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB93F18B1510C0F600807F09 /* SHCydiaBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB93F1BE1510C0F700807F09 /* Build configuration list for PBXNativeTarget "SHCydiaBrowser" */;
+			buildPhases = (
+				EB93F1881510C0F600807F09 /* Sources */,
+				EB93F1891510C0F600807F09 /* Frameworks */,
+				EB93F18A1510C0F600807F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHCydiaBrowser;
+			productName = SHCydiaBrowser;
+			productReference = EB93F18C1510C0F600807F09 /* SHCydiaBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB93F1AC1510C0F700807F09 /* SHCydiaBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB93F1C11510C0F700807F09 /* Build configuration list for PBXNativeTarget "SHCydiaBrowserTests" */;
+			buildPhases = (
+				EB93F1A81510C0F700807F09 /* Sources */,
+				EB93F1A91510C0F700807F09 /* Frameworks */,
+				EB93F1AA1510C0F700807F09 /* Resources */,
+				EB93F1AB1510C0F700807F09 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB93F1B21510C0F700807F09 /* PBXTargetDependency */,
+			);
+			name = SHCydiaBrowserTests;
+			productName = SHCydiaBrowserTests;
+			productReference = EB93F1AD1510C0F700807F09 /* SHCydiaBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB93F1831510C0F600807F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iPN;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shaahin.us;
+			};
+			buildConfigurationList = EB93F1861510C0F600807F09 /* Build configuration list for PBXProject "SHCydiaBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB93F1811510C0F600807F09;
+			productRefGroup = EB93F18D1510C0F600807F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB93F18B1510C0F600807F09 /* SHCydiaBrowser */,
+				EB93F1AC1510C0F700807F09 /* SHCydiaBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB93F18A1510C0F600807F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB93F19B1510C0F600807F09 /* InfoPlist.strings in Resources */,
+				EB93F1A71510C0F700807F09 /* MainMenu.xib in Resources */,
+				EB77302E1510C5250055B6A8 /* shFTPPanel_Window.xib in Resources */,
+				EB53C1BB151535F4005C35F7 /* shFileStreamPanel.xib in Resources */,
+				EB125FD615164288005CB41D /* Credits.html in Resources */,
+				EB1173FB173FC825000C4B81 /* shcyd.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB93F1AA1510C0F700807F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB77302F1510C5250055B6A8 /* shFTPPanel_Window.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB93F1AB1510C0F700807F09 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB93F1881510C0F600807F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB93F19D1510C0F600807F09 /* main.m in Sources */,
+				EB93F1A41510C0F600807F09 /* SHAppDelegate.m in Sources */,
+				EB7730281510C5040055B6A8 /* shDebian.m in Sources */,
+				EB7730301510C5250055B6A8 /* shFTPPanel.m in Sources */,
+				EB91CAB3151357EB00CB3393 /* iPNSourcesViewController.m in Sources */,
+				EB91CAC61513946500CB3393 /* NSData+Bzip2.m in Sources */,
+				EB91CACA1513A1F300CB3393 /* iPNPackagesViewController.m in Sources */,
+				EB5BCE32151538B200340FBA /* shFileStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB93F1A81510C0F700807F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7730291510C5040055B6A8 /* shDebian.m in Sources */,
+				EB7730311510C5250055B6A8 /* shFTPPanel.m in Sources */,
+				EB91CAB4151357EB00CB3393 /* iPNSourcesViewController.m in Sources */,
+				EB91CAC71513946500CB3393 /* NSData+Bzip2.m in Sources */,
+				EB91CACB1513A1F300CB3393 /* iPNPackagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB93F1B21510C0F700807F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB93F18B1510C0F600807F09 /* SHCydiaBrowser */;
+			targetProxy = EB93F1B11510C0F700807F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB93F1991510C0F600807F09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB93F19A1510C0F600807F09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB93F1A51510C0F700807F09 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB93F1A61510C0F700807F09 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB93F1BC1510C0F700807F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB93F1BD1510C0F700807F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB93F1BF1510C0F700807F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHCydiaBrowser/SHCydiaBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SHCydiaBrowser/SHCydiaBrowser-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.shaahin.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SHCydiaBrowser;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB93F1C01510C0F700807F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHCydiaBrowser/SHCydiaBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SHCydiaBrowser/SHCydiaBrowser-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.shaahin.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SHCydiaBrowser;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB93F1C21510C0F700807F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHCydiaBrowser.app/Contents/MacOS/SHCydiaBrowser";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHCydiaBrowser/SHCydiaBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SHCydiaBrowserTests/SHCydiaBrowserTests-Info.plist";
+				PRODUCT_NAME = SHCydiaBrowserTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EB93F1C31510C0F700807F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHCydiaBrowser.app/Contents/MacOS/SHCydiaBrowser";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHCydiaBrowser/SHCydiaBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SHCydiaBrowserTests/SHCydiaBrowserTests-Info.plist";
+				PRODUCT_NAME = SHCydiaBrowserTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB93F1861510C0F600807F09 /* Build configuration list for PBXProject "SHCydiaBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB93F1BC1510C0F700807F09 /* Debug */,
+				EB93F1BD1510C0F700807F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB93F1BE1510C0F700807F09 /* Build configuration list for PBXNativeTarget "SHCydiaBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB93F1BF1510C0F700807F09 /* Debug */,
+				EB93F1C01510C0F700807F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB93F1C11510C0F700807F09 /* Build configuration list for PBXNativeTarget "SHCydiaBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB93F1C21510C0F700807F09 /* Debug */,
+				EB93F1C31510C0F700807F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB93F1831510C0F600807F09 /* Project object */;
+}
