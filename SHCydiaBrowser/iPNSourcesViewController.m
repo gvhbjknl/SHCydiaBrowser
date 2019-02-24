@@ -255,10 +255,10 @@
     [sender setTitle:@"Updating..."];
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSInteger __block idx = 0;
-        for (NSDictionary * dict in self.sources) {
+        for (NSDictionary * dict in [self.sources mutableCopy]) {
             
             [self.workedSources setObject:@"updating..." forKey:[NSString stringWithFormat:@"%ld", idx]];
-            [self.tableView reloadData];
+            
             BOOL result = [self refreshSource:dict];
             dispatch_async(dispatch_get_main_queue(), ^{
                 
